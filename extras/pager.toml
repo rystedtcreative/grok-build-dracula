@@ -1,0 +1,18 @@
+# grok-build-dracula: optional ~/.grok/pager.toml snippet.
+# Every key here is documented in Grok Build's theming guide
+# (~/.grok/docs/user-guide/06-theming.md, "Deep Customization with pager.toml").
+# These are layout/styling tweaks only; colors still come from your terminal
+# palette via the built-in `terminal` theme. Delete any line you don't want.
+
+[scrollback.blocks.tool]
+bullet = "diamond"          # ◆ before tool headers
+
+[scrollback.blocks.edit]
+hunk_separator = "⋯"        # between diff hunks
+line_summary = true         # +N/-M in the collapsed edit header
+
+[scrollback.display]
+collapsed_accent_char = "❙"
+
+[scrollback.blocks.thinking]
+header_bright = false       # keep "Thinking…" in the dim (bright-black) tone

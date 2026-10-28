@@ -1,0 +1,48 @@
+# Alucard (classic): Dracula's official light variant.
+# Source: https://draculatheme.com/spec ("Alucard Classic" palette and ANSI tables)
+# This file is the single source of truth. Run `python3 scripts/generate.py`
+# after editing it; never hand-edit files under themes/.
+#
+# Note: in the official Alucard ANSI table, "black" is the light background
+# and "white" is the dark foreground (the slots are inverted for a light
+# profile). That is intentional and kept as published.
+
+[meta]
+slug = "alucard"
+name = "Grok Alucard"
+appearance = "light"
+official = true
+source = "https://draculatheme.com/spec"
+
+[colors]
+background = "#FFFBEB"
+foreground = "#1F1F1F"
+selection = "#CFCFDE"
+comment = "#6C664B"
+cursor = "#1F1F1F"
+cursor_text = "#FFFBEB"
+red = "#CB3A2A"
+orange = "#A34D14"
+yellow = "#846E15"
+green = "#14710A"
+purple = "#644AC9"
+cyan = "#036A96"
+pink = "#A3144D"
+
+[ansi]
+black = "#FFFBEB"
+red = "#CB3A2A"
+green = "#14710A"
+yellow = "#846E15"
+blue = "#644AC9"
+magenta = "#A3144D"
+cyan = "#036A96"
+white = "#1F1F1F"
+bright_black = "#6C664B"
+bright_red = "#D74C3D"
+bright_green = "#198D0C"
+bright_yellow = "#9E841A"
+bright_blue = "#7862D0"
+bright_magenta = "#BF185A"
+bright_cyan = "#047FB4"
+bright_white = "#2C2B31"

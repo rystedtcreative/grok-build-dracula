@@ -1,0 +1,51 @@
+# Dracula Soft: a DERIVED, unofficial, lower-contrast take on Dracula.
+# It is NOT part of the official Dracula spec.
+#
+# How the values were derived from the official Dracula palette:
+#   * background  = #21222C, the official Dracula "Background Dark" / AnsiBlack
+#   * ansi black  = #191A21, the official Dracula "Background Darker"
+#   * every other color = official Dracula color with its HSL saturation
+#     scaled to 80%, then mixed 12% toward #21222C (rounded to the nearest
+#     8-bit value). This keeps every hue but takes the neon edge off.
+# This file is the single source of truth. Run `python3 scripts/generate.py`
+# after editing it; never hand-edit files under themes/.
+
+[meta]
+slug = "dracula-soft"
+name = "Grok Dracula Soft"
+appearance = "dark"
+official = false
+source = "derived from https://draculatheme.com/spec (see header comment)"
+
+[colors]
+background = "#21222C"
+foreground = "#DEDEDB"
+selection = "#424453"
+comment = "#606B90"
+cursor = "#DEDEDB"
+cursor_text = "#21222C"
+red = "#D55E5F"
+orange = "#D7A671"
+yellow = "#D0D68A"
+green = "#59D179"
+purple = "#AC8ED7"
+cyan = "#88CBDA"
+pink = "#D97AB2"
+
+[ansi]
+black = "#191A21"
+red = "#D55E5F"
+green = "#59D179"
+yellow = "#D0D68A"
+blue = "#AC8ED7"
+magenta = "#D97AB2"
+cyan = "#88CBDA"
+white = "#DEDEDB"
+bright_black = "#606B90"
+bright_red = "#D87273"
+bright_green = "#6ED78D"
+bright_yellow = "#DCDD9E"
+bright_blue = "#C0A3DE"
+bright_magenta = "#DB8EC6"
+bright_cyan = "#9CDCDE"
+bright_white = "#E4E4E6"

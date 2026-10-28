@@ -1,0 +1,23 @@
+{
+    "name": "Grok Dracula Soft",
+    "background": "#21222C",
+    "foreground": "#DEDEDB",
+    "cursorColor": "#DEDEDB",
+    "selectionBackground": "#424453",
+    "black": "#191A21",
+    "red": "#D55E5F",
+    "green": "#59D179",
+    "yellow": "#D0D68A",
+    "blue": "#AC8ED7",
+    "purple": "#D97AB2",
+    "cyan": "#88CBDA",
+    "white": "#DEDEDB",
+    "brightBlack": "#606B90",
+    "brightRed": "#D87273",
+    "brightGreen": "#6ED78D",
+    "brightYellow": "#DCDD9E",
+    "brightBlue": "#C0A3DE",
+    "brightPurple": "#DB8EC6",
+    "brightCyan": "#9CDCDE",
+    "brightWhite": "#E4E4E6"
+}

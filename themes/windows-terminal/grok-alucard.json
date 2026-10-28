@@ -1,0 +1,23 @@
+{
+    "name": "Grok Alucard",
+    "background": "#FFFBEB",
+    "foreground": "#1F1F1F",
+    "cursorColor": "#1F1F1F",
+    "selectionBackground": "#CFCFDE",
+    "black": "#FFFBEB",
+    "red": "#CB3A2A",
+    "green": "#14710A",
+    "yellow": "#846E15",
+    "blue": "#644AC9",
+    "purple": "#A3144D",
+    "cyan": "#036A96",
+    "white": "#1F1F1F",
+    "brightBlack": "#6C664B",
+    "brightRed": "#D74C3D",
+    "brightGreen": "#198D0C",
+    "brightYellow": "#9E841A",
+    "brightBlue": "#7862D0",
+    "brightPurple": "#BF185A",
+    "brightCyan": "#047FB4",
+    "brightWhite": "#2C2B31"
+}

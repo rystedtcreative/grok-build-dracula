@@ -2,6 +2,10 @@
 
 Dracula, Dracula Soft and Alucard colors for the [Grok Build](https://x.ai) CLI (`grok`).
 
+![Grok Build running in Dracula, Dracula Soft and Alucard](previews/animated.gif)
+
+*This animation is a re-rendered illustration, not a screen recording; the screenshots under [Previews](#previews) are real captures. There's also a [1080p MP4](previews/animated.mp4).*
+
 ![Grok Dracula, Grok Dracula Soft and Grok Alucard side by side](previews/comparison.png)
 
 ## How this works
